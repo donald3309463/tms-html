@@ -64,6 +64,14 @@ h2._white:after {
     padding: 110px 0;
 }
 
+.container3 {
+    max-width: 317px;
+    max-height: 23px;
+    margin: 0 auto;
+    padding: 40px 0 0 0;
+
+}
+
 .container2 {
     max-width: 1110px;
     max-height: 360px;
@@ -160,22 +168,23 @@ h2._white:after {
 }
 .social__image-wrap {
     display: inline-flex;
-    width: 12px;
-    height: 23px;
-    margin-bottom: 3px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 .social__image {
-    font-size: 25px;
+    font-size: 23px;
     color: #ffffff;
-}
-.cellsocial {
-    padding: 40px auto;
+    opacity: 0.7;
 }
 
-.containersocical {
-    width: 318px;
-    height: 47px;
+.h5social {
+    text-align: center;
+    padding: 15px 0 15px 0;
+    opacity: 0.7;
+}
+.rowsocial {
+    display:flex;
+    margin: 0 auto;
+    justify-content: space-between;
 }

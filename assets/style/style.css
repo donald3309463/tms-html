@@ -146,6 +146,10 @@ h2._white:after {
     background: url(../images/fon1.jpg);
     background-size: cover;
 }
+.social {
+    background-color: #000000;
+    background-size: cover;
+}
 
 .stylish .container {
     padding: 75px 0 65px;
@@ -153,4 +157,25 @@ h2._white:after {
 .link1 {
     text-decoration: none ;
     color: #ffffff ;
+}
+.social__image-wrap {
+    display: inline-flex;
+    width: 12px;
+    height: 23px;
+    margin-bottom: 3px;
+    align-items: center;
+    justify-content: center;
+
+}
+.social__image {
+    font-size: 25px;
+    color: #ffffff;
+}
+.cellsocial {
+    padding: 40px auto;
+}
+
+.containersocical {
+    width: 318px;
+    height: 47px;
 }

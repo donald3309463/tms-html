@@ -13,8 +13,8 @@
 }
 body {
     color: #86878b;
-    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 h2 {
     margin-bottom: 24px;
@@ -306,7 +306,7 @@ textarea {
 
 .axitnavi {
     height: 80px;
-    width: 1110px;
+    max-width: 1110px;
     display: flex;
     margin: 0 auto;
     align-items: center;
@@ -326,4 +326,99 @@ textarea {
     width: 455px;
     display: flex;
     justify-content: space-between;
+}
+
+.socialmedia {
+    height: 105px;
+    background-size: cover;
+    border-bottom: 2px solid #cccccc;
+}
+.socialimages {
+    height: 105px;
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialtext {
+    width: 363px;
+    height: 63px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family:'Open Sans' , sans-serif;
+    color: #000000;
+}
+
+.lowsocialtext {
+    font-size: 12px;
+    color: #86878b;
+}
+
+.imagessocial {
+    color: #cccccc;
+    height: 35px;
+    width: 635px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 45px;
+}
+
+.socialmedia_p {
+    font-size: 12px;
+    font-weight: 600;
+    font-family:'Open Sans' , sans-serif;
+    color: #cccccc;
+}
+
+.intro {
+    background: url(../images/introfon.png);
+    background-size: cover;
+    height: 642px;
+}
+.introbox {
+    height: 642px;
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.axittext {
+    height: 393px;
+    width: 512px;
+    display: flex;
+}
+
+.axitform {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 362px;
+    width: 362px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.tryuself {
+    height: 54px;
+    border-radius: 4px 4px 0 0;
+    background-color: #cccccc;
+}
+.tryuself_orange {
+    height: 54px;
+    border-radius: 0 0 4px 4px;
+    background-color: var(--primary-color);
+}
+
+.axit_contact {
+    margin: 0 auto;
+    height: 254px;
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }

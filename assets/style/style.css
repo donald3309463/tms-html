@@ -16,6 +16,20 @@ body {
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
 }
+
+a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #cccccc;
+}
+
+a:hover {
+    color: var(--primary-color);
+}
+
 h2 {
     margin-bottom: 24px;
     color: #212121;
@@ -202,12 +216,19 @@ h2._white:after {
 }
 
 .h5social {
+    padding: 7px 0;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    padding: 35px 0 20px 0;
     opacity: 0.7;
 }
 .rowsocial {
-    display:flex;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: #000000;
+    height: 22px;
+    width: 318px;
+    display: flex;
     margin: 0 auto;
     justify-content: space-between;
 }
@@ -323,9 +344,13 @@ textarea {
 }
 
 .navi {
-    width: 455px;
+    max-width: 455px;
     display: flex;
-    justify-content: space-between;
+}
+
+.navi_space {
+
+    margin: 0 26px;
 }
 
 .socialmedia {
@@ -403,11 +428,24 @@ textarea {
 }
 
 .tryuself {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 54px;
     border-radius: 4px 4px 0 0;
+    color: #000000;
     background-color: #cccccc;
 }
+
+.tryblack   {
+    font-weight: 700;
+    font-size: 16px;
+    font-family:'Open Sans' , sans-serif;
+}
+
 .tryuself_orange {
+    display: flex;
+    justify-content: center;
     height: 54px;
     border-radius: 0 0 4px 4px;
     background-color: var(--primary-color);
@@ -421,4 +459,29 @@ textarea {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+.image_social_silver {
+    color: #cccccc;
+}
+
+.free {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 16px;
+    font-family:'Open Sans' , sans-seri
+}
+
+.buttom_start {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 54px;
+    min-width: 362px;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    font-family:'Open Sans' , sans-serif;
+    border-radius: 3px;
+    cursor: pointer;
 }

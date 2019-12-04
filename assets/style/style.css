@@ -291,11 +291,10 @@ textarea {
 
 .price__black {
     background-color: #000000;
-    padding: 21px 0;
+    padding: 14px 0;
 }
 .price__black1 {
     background-color: #000000;
-    padding: 43px 0;
     border-bottom: 1px solid var(--base-color);
     border-top: 1px solid var(--base-color);
 }
@@ -469,7 +468,7 @@ textarea {
     color: var(--primary-color);
     font-weight: 700;
     font-size: 16px;
-    font-family:'Open Sans' , sans-seri
+    font-family:'Open Sans' , sans-serif;
 }
 
 .buttom_start {
@@ -485,4 +484,23 @@ textarea {
     font-family:'Open Sans' , sans-serif;
     border-radius: 3px;
     cursor: pointer;
+}
+
+._meddium {
+    font-size: 24px;
+    font-weight: 700;
+    font-family:'Open Sans' , sans-serif;
+    color: #FFFFFF ;
+}
+._bigprice {
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Raleway' , sans-serif;
+    color: #FFFFFF;
+}
+
+.lowbacks {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Raleway' , sans-serif;
 }

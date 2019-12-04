@@ -356,7 +356,8 @@ textarea {
 .socialmedia {
     height: 105px;
     background-size: cover;
-    border-bottom: 2px solid #cccccc;
+    box-shadow: 0 3px 3px rgba(0,0,0,.38);
+    position: relative;
 }
 .socialimages {
     height: 105px;
@@ -453,7 +454,7 @@ textarea {
 
 .axit_contact {
     margin: 0 auto;
-    height: 254px;
+    height: 65%;
     width: 285px;
     display: flex;
     flex-direction: column;
